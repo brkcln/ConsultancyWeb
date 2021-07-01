@@ -31,7 +31,7 @@
 .services-second {
 	padding: 3em 0 1em;
 	margin: 1em 0;
-	background: url("./Assets/img/services-background.jpg") no-repeat center center;
+	background: url("/Assets/img/services-background.jpg") no-repeat center center;
 	height: 100vh;
 }
 .services-content {
@@ -114,7 +114,7 @@
 
 /* hero section*/
 .hero {
-	background: url("./Assets/img/background.jpg") no-repeat center;
+	background: url("/Assets/img/background.jpg") no-repeat center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
