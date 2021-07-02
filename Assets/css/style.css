@@ -1,5 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Prata&display=swap");
+/*  featured section*/
+.feature-up-text p, .feature-bottom-up-text p {
+	border-left: 1px solid rgb(22, 21, 21);
+	padding: 0.4em;
+	color: var(--small-header-color);
+	font-weight: 400;
+	letter-spacing: 1.1px;
+	font-size:15px;
+}	
+.feature-card {
+	padding: 2em;
+	margin: 2em;
+	height: 250px;
+	position: relative;
+	box-shadow: 1px 2px 0px 1px rgba(33,33,33,0.73)
 
+}
+.a {
+	background: url("../img/section1.jpg") no-repeat center center;
+	background-size: cover;
+}
+.b {
+	background: url("../img/section3.jpg") no-repeat center center;
+	background-size: cover;
+}
+.c {
+	background: url("../img/section4.jpg") no-repeat center center;
+	background-size: cover;
+}
+.d {
+	background: url("../img/section2.jpg") no-repeat center center;
+	background-size: cover;
+}
+.feature {
+	display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+#feature {
+	margin: 2em;
+}
+.feature-content {
+	position: absolute;
+	bottom:-10px;
+	left:0;
+	background:#E6E4E4;
+	width: 55%;
+	height: 50%;
+	text-align: center;
+}
+/* hamburger - nav */
 .hamburger {
     display: none;
 }
@@ -12,7 +66,6 @@
     transition: all 0.3s ease-in-out;
     background-color: #101010;
 }
-
 /* services section*/
 .services-second .container {
 	display: flex;

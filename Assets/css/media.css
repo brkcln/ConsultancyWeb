@@ -1,4 +1,14 @@
 @media (max-width: 768px) {
+	.feature-content {
+		font-size: 15px;
+	}
+	.feature {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 20px;
+	}
 	.hamburger {
 		display: block;
 		cursor: pointer;
@@ -6,7 +16,6 @@
 	#logo {
 		font-size: 20px;
 	}
-
 	.hamburger.active .bar:nth-child(2) {
 		opacity: 0;
 	}
