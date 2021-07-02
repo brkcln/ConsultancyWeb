@@ -11,9 +11,10 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<!-- my css -->
 		<link rel="stylesheet" href="./Assets/css/style.css" />
+		<!-- css media-->
+		<link rel="stylesheet" href="./Assets/css/media.css"/>
 	</head>
 	<body>
-		<!-- header -->
 		<div class="top-nav">
 			<div class="container">
 				<ul class="top-nav-links-left">
@@ -28,7 +29,8 @@
 				</ul>
 			</div>
 		</div>
-		<header class="header-top" id="header-sticky">
+		<!-- header -->
+		<header id="header" class="nav-fix">
 			<div class="container">
 				<nav class="fixed_nav">
 					<a href="#"><span id="logo">Sitech.</span></a>
@@ -101,14 +103,14 @@
 		<section class="services-second">
 			<div class="container">
 				<div class="services-img">
-					<img src="./Assets/img/card.jpg" "alt="card women looking at camera">
+					<img src="/Assets/img/card.jpg" "alt="card women looking at camera">
 				</div>
 			<div class="services-content">
 				<div class="services-up-text">
 					<p>OUR TOP SERVICES</p>
 				</div>
-				<div class="services-header">
-					<h2>Our Best Services</h2>
+				<div>
+					<h2 id="header-services">Our Best Services</h2>
 				</div>
 				<div class="services-content-text">
 					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />Nostrum laborum autem repellendus nihil ratione sit consectetur</p>
