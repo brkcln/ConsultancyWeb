@@ -3,6 +3,9 @@
 		display: block;
 		cursor: pointer;
 	}
+	#logo {
+		font-size: 20px;
+	}
 
 	.hamburger.active .bar:nth-child(2) {
 		opacity: 0;
@@ -18,24 +21,34 @@
 
 	.nav__list.active {
 		left: 0;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		font-size: 18px;
+		width: 50%;
+		margin-left: 12em;
+		background-color: transparent;
 	}
-
+	.fixed_nav {
+		font-size: 20px;
+	}
 	.nav__items {
-		margin: 2.5rem 0;
+		margin: 0 auto;
 	}
 
 	.nav__list {
-		height: 45px;
 		position: fixed;
 		left: -100%;
-		top: 5em;
-		flex-direction: row;
-		background-color: #d6d2d2;
+		background-color: transparent;
 		width: 100%;
 		text-align: center;
 		transition: 0.3s;
 		box-shadow: 0 10px 27px rgb(0 0 0 / 5%);
 		justify-content: space-evenly;
+		margin: 0 auto;
+	}
+	.nav__list li {
+		padding: 0 0.3em;
 	}
 
 	.top-nav .container {
